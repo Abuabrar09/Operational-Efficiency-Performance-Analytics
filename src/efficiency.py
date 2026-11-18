@@ -1,4 +1,3 @@
-cat > src/efficiency.py <<'EOF'
 """
 efficiency.py - Phase 5: employee and department (airline) efficiency
 
