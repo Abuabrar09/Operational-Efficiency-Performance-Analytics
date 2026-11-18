@@ -89,7 +89,7 @@ def main():
     check("Airline codes with more than one name", len(renamed),
           "Standardized to the most recent name" + (f" ({', '.join(renamed.index)})" if len(renamed) else ""))
     latest = df.sort_values(["year", "month"]).groupby("carrier")["carrier_name"].last()
-    df["carrier_name"] = df["carrier"].map(latest).str.replace(r"\s+(Inc\.|Co\.|Corp\.|LLC)$", "", regex=True)
+    df["carrier_name"] = df["carrier"].map(latest).str.replace(r"\s+(Inc\.|Co\.|Corp\.|LLC)$", "", regex=True).str.replace(r"\s+Network$", "", regex=True)
 
     # derived fields
     df["period"] = pd.to_datetime(dict(year=df.year, month=df.month, day=1)).dt.strftime("%Y-%m-%d")
