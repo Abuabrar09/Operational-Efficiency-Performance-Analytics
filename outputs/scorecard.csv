@@ -1,0 +1,22 @@
+carrier,carrier_name,peer_group,overall_score,Green,Amber,Red,on_time_rate,cancel_rate,controllable_min_per_flight,cost_per_flight,flights_per_fte_month,cascade_ratio,on_time_change_pts,trend
+WN,Southwest Airlines,Low-cost,77.0,4,1,1,0.7701,0.0092,9.2355,1177.0849,1.616,1.8663,-0.0499,Worsening
+G4,Allegiant Air,Low-cost,73.0,2,4,0,0.7433,0.0091,14.7278,2123.404,1.7813,1.2106,-0.0218,Worsening
+NK,Spirit Airlines,Low-cost,73.0,3,3,0,0.7257,0.0208,10.1207,1822.8327,1.6565,1.0303,-0.1055,Worsening
+B6,JetBlue Airways,Low-cost,40.0,0,2,4,0.7002,0.0224,16.6217,2202.229,0.9947,1.1768,-0.065,Worsening
+F9,Frontier Airlines,Low-cost,37.0,1,1,4,0.6925,0.0212,18.2978,2330.3351,2.1908,1.8782,0.0006,Flat
+HA,Hawaiian Airlines,Network,90.0,6,0,0,0.802,0.0106,8.5311,919.5853,0.9581,0.6286,-0.0421,Worsening
+DL,Delta Air Lines,Network,73.0,3,3,0,0.807,0.0119,9.7096,1296.7285,0.8189,0.6425,-0.0133,Worsening
+AS,Alaska Airlines,Network,70.0,3,3,0,0.7752,0.0128,7.3702,1072.4115,1.0444,1.2802,0.0196,Improving
+UA,United Air Lines,Network,43.0,0,3,3,0.7788,0.0127,10.0468,1506.6407,0.6617,1.3492,-0.0145,Worsening
+AA,American Airlines,Network,23.0,0,1,5,0.733,0.017,17.0029,2123.8818,0.7922,1.4057,-0.0156,Worsening
+QX,Horizon Air,Regional,80.0,4,1,1,0.8204,0.0127,6.2348,843.8035,2.3454,1.5999,-0.03,Worsening
+OO,SkyWest Airlines,Regional,74.0,3,3,0,0.7912,0.0137,11.1539,1604.7242,4.7531,0.4332,-0.0171,Worsening
+YX,Republic Airline,Regional,70.0,4,1,1,0.7975,0.032,7.2064,1202.7804,4.5264,1.4064,-0.0583,Worsening
+C5,CommuteAir LLC dba CommuteAir,Regional,68.0,2,3,1,0.8038,0.0187,12.5162,1642.6613,5.3584,1.3235,0.0194,Improving
+PT,Piedmont Airlines,Regional,58.0,4,0,2,0.8161,0.0137,10.2496,1396.0422,1.3264,2.243,0.021,Improving
+9E,Endeavor Air,Regional,56.0,2,3,1,0.7859,0.0276,10.8944,1520.617,3.965,1.343,-0.053,Worsening
+MQ,Envoy Air,Regional,53.0,3,1,2,0.7848,0.0173,8.3272,1272.9547,1.4786,1.9786,0.0043,Flat
+YV,Mesa Airlines,Regional,47.0,1,2,3,0.7863,0.0186,13.6359,1740.5647,3.7312,1.4217,0.0378,Improving
+ZW,Air Wisconsin Airlines Corp,Regional,36.0,1,1,4,0.7515,0.0146,17.1215,2212.6501,4.2462,2.0472,,n/a
+OH,PSA Airlines,Regional,30.0,0,2,4,0.7388,0.0329,15.4945,2002.5732,4.0771,1.6603,-0.0105,Worsening
+G7,GoJet Airlines LLC d/b/a United Express,Regional,27.0,1,0,5,0.7345,0.0298,16.3383,2241.2351,5.0927,2.3299,-0.0474,Worsening
