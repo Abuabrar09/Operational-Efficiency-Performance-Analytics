@@ -1,0 +1,13 @@
+check,rows_affected,action
+Raw rows (airline x airport x month),82714,Loaded
+Months covered,44,2023-01 to 2026-08
+Exact duplicate rows,0,None found
+Same airline/airport/month on more than one row,0,None found
+Rows with no arriving flights (blank or 0),72,Removed
+Rows with other blank numbers,21,Filled with 0
+Rows with negative counts or minutes,0,None found
+Delayed + cancelled + diverted > scheduled flights,0,"Flagged, kept"
+Cause minutes do not add up to total delay minutes,109,Flagged; total delay reset to the sum of causes
+Cause counts differ from delayed flights by more than 1,37,"Flagged, kept (BTS splits a delayed flight across causes)"
+Airline codes with more than one name,0,Standardized to the most recent name
+Clean rows,82642,Loaded to SQLite table delays
