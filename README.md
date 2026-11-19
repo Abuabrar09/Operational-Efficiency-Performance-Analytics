@@ -80,8 +80,8 @@ Writes one Excel workbook (`outputs/tableau/operations_dashboard.xlsx`) with 5 s
 ├── sql/                          airline_monthly.sql, airport_bottlenecks.sql
 ├── src/                          clean → costs → bottlenecks → efficiency → scorecard → build_tableau_data
 ├── outputs/                      data quality log, cost, cause mix, efficiency, scorecard CSVs
-│   └── tableau/                  dashboard feed (CSV + operations_dashboard.xlsx)
-├── charts/                       PNG charts from each phase
+│   ├── tableau/                  dashboard feed (CSV + operations_dashboard.xlsx)
+│   └── charts/                   PNG charts from each phase
 └── requirements.txt
 ```
 
